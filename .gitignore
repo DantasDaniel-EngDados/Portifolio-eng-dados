@@ -1,0 +1,15 @@
+# Arquivo de variáveis de ambiente do Airflow (contém senhas)
+airflow/.env
+airflow/config
+
+airflow/dags/__pycache__
+
+# Usado para colocar as credenciais de acesso, porém a variável "password =" precisa ser declarada no próprio arquivo, por isso veio para cá.
+airflow/dags/configPy.py
+
+# Pastas e arquivos que são criados após rodar a DAG, foram retirados do envio para melhor visualização do projeto.
+airflow/leituras_de_temperaturas.csv
+airflow/airflow
+/leituras/leituras
+airflow/logs/*
+/.env

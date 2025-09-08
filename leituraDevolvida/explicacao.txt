@@ -1,0 +1,2 @@
+Nesta pasta fica salvo o arquivo do comando:
+docker cp airflow-airflow-worker-1:/tmp/temperatura_media_diaria.csv ..\leituraDevolvida\temperatura_media_diaria.csv
